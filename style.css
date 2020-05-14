@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+
+  margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.MainInfoBlock {
+  background-color: black;
+}
+
+.Text {
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+text-align: center;
+color: white;
+}
+
+.NameAgeBlock {
+  font-weight: 400;
+  font-size: 42;
+}
+
+.AdditionalInfoBlock {
+  font-size: 21;
+  font-weight: 100;
+}
+
+#HorizontalStack {
+		float:left;
+}
+
+.CenteredContainer {
+  text-align: center;
+}
+
+.ContactImage {
+  width: 50px;
+  height: 50px;
+  padding-left: 8;
+  padding-right: 8;
+}
+
+.ContactsBlock {
+  padding-top: 16;
+}
+
+.ResumeBlock {
+  .border-radius: 15%;
+  .text-align: center;
+  .border-color: white;
+  .border-style: solid;
+}
+
+.ResumeText {
+
+}
+
+.VCenterAlignedContainer {
+}
+
+
+.ImageBlock {
+  display: block;
+
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: solid;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16;
+  margin-bottom: 16;
+}
