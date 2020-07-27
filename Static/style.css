@@ -72,13 +72,13 @@ body {
 .ImageBlock {
   display: block;
 
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 
   object-fit: cover;
 
   border-radius: 50%;
-  border-color: #ffffff;
+  border-color: white;
   border-width: 3px;
   border-style: solid;
 
