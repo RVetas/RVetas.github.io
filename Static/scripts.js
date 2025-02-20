@@ -6,4 +6,4 @@ function calculate_age(dob) {
 }
 
 var element = document.getElementById("ageBlock");
-element.innerHTML = calculate_age(new Date(1998, 1, 22));
+element.innerHTML = calculate_age(new Date(1998, 0, 22));
